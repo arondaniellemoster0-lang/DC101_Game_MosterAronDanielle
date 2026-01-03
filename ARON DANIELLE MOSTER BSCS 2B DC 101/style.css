@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.choices button {
+  font-size: 18px;
+  padding: 15px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.choices button:hover {
+  background-color: #ddd;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.score {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .choices button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+}
